@@ -344,8 +344,7 @@ p {
 }
 
 .ourteem-link:hover,
-.ourteem-link:focus,
-.ourteem-link:active {
+.ourteem-link:focus {
   background-color: #404bbf;
 }
 
