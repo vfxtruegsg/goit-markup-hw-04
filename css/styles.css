@@ -149,7 +149,7 @@ p {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  background-size: 1440px 600px;
+  max-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -360,6 +360,7 @@ p {
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fun-form {
@@ -490,6 +491,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-pic {
