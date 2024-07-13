@@ -343,11 +343,9 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ourteem-link:hover {
-  background-color: #404bbf;
-}
-
-.ourteem-link:focus {
+.ourteem-link:hover,
+.ourteem-link:focus,
+.ourteem-link:active {
   background-color: #404bbf;
 }
 
