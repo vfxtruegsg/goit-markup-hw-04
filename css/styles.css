@@ -155,6 +155,7 @@ p {
   background-position: center;
   background-color: #2e2f42;
   padding: 188px 0;
+  margin: 0 auto;
 }
 
 .h-one {
@@ -305,7 +306,7 @@ p {
 }
 
 .work-position {
-  padding-top: 32px;
+  padding: 32px 0;
 }
 
 .ourteem-svg-list {
@@ -314,8 +315,10 @@ p {
   align-items: center;
   flex-direction: row;
   gap: 24px;
+}
+
+.our-svg {
   fill: #f4f4fd;
-  margin-bottom: 32px;
 }
 
 .ourteem-svg-item {
@@ -325,12 +328,23 @@ p {
   gap: 24px;
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
   border-radius: 50%;
   margin-top: 8px;
 }
 
-.ourteem-svg-item:hover {
+.ourteem-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ourteem-link:hover,
+.ourteem-link:focus {
   background-color: #404bbf;
 }
 
